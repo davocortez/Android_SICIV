@@ -47,8 +47,5 @@ public class MainActivity extends Activity {
 	public void registroNuevo(View v){
 		Intent act = new Intent(this,RegistrarseActivity.class);
 		startActivity(act);
-		
-		
 	}
-
 }
