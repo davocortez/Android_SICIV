@@ -28,7 +28,6 @@ public final class R {
         public static final int action_settings=0x7f080013;
         public static final int button1=0x7f080004;
         public static final int button2=0x7f080002;
-        public static final int editText2=0x7f080005;
         public static final int textView1=0x7f080000;
         public static final int textView2=0x7f080001;
         public static final int textView3=0x7f080006;
@@ -42,8 +41,9 @@ public final class R {
         public static final int txtContrasena=0x7f080012;
         public static final int txtDir=0x7f08000e;
         public static final int txtMail=0x7f080011;
-        public static final int txtNombre=0x7f080003;
+        public static final int txtPass=0x7f080005;
         public static final int txtTel=0x7f08000f;
+        public static final int txtUser=0x7f080003;
         public static final int txtUsuario=0x7f080010;
     }
     public static final class layout {

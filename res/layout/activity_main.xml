@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/button2"
-        android:layout_below="@+id/txtNombre"
+        android:layout_below="@+id/txtUser"
         android:layout_marginTop="33dp"
         android:text="Contraseña"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -34,40 +34,40 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/txtPass"
         android:layout_marginTop="74dp"
         android:layout_toRightOf="@+id/button2"
         android:text="Ingresar"
-        android:textColor="#fff" />
+        android:textColor="#fff"
+        android:onClick="iniciarSesion" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/txtUser"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="54dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="registroNuevo"
         android:text="Registrarse"
-        android:textColor="#fff" 
-        android:onClick="registroNuevo"/>
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView2"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignRight="@+id/txtNombre"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-    <EditText
-        android:id="@+id/txtNombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView1"
-        android:layout_toRightOf="@+id/textView1"
-        android:ems="10" />
+        android:textColor="#fff" />
 
 </RelativeLayout>
